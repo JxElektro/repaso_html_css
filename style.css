@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Space Mono', monospace;
 }
 
 .main__box {
@@ -20,7 +21,7 @@ body {
   background-color: #0879b1;
   width: 600px;
   height: 170px;
-  font-size:x-small;
+  font-size: x-small;
 }
 
 .header__box {
@@ -84,14 +85,15 @@ button {
   margin-top: 10px;
   font-size: x-small;
 }
-select{
+
+select {
   margin-top: 10px;
   height: 20px;
   font-size: x-small;
 }
 
-img{
-width: 100px;
-height: 100px;
-padding-bottom: 10%;
+img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 10%;
 }
