@@ -69,7 +69,6 @@ body {
   justify-content: space-evenly;
   padding-left: 5%;
   padding-right: 5%;
-  flex-grow: initial;
 }
 
 input {
