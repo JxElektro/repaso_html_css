@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #16afd8;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #0879b1;
+  width: 600px;
+  height: 50px;
+  font-size:x-small;
+}
+
+.header__box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  margin-top: 10%;
+  background-image: url("./img/splash.jpg");
+  background-size: contain;
+  width: 601px;
+  height: 180px;
+  padding: 3%;
+  text-align: right;
+}
+
+.main__box--colors {
+  border-right: #16afd8 thin solid;
+}
+
+.main__box--mix {
+  border-right: #16afd8 thin solid;
+}
+
+.main__box--gloves {
+  border-right: #16afd8 thin solid;
+}
+
+.main__box--form {
+  padding: 0%;
+  height: 35px;
+  width: 100%;
+}
+
+
+.main__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: space-evenly;
+
+}
+
+.main__box--imag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%;
+  flex-grow: initial;
+}
+
+input {
+  width: 30%;
+  height: 20px;
+  margin-top: 10px;
+}
+
+button {
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: x-small;
+}
+select{
+  margin-top: 10px;
+  height: 20px;
+  font-size: x-small;
+}
+
+img{
+width: 100px;
+height: 100px;
+padding-bottom: 10%;
+}
